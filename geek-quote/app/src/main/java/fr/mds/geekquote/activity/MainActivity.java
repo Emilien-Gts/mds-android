@@ -6,9 +6,11 @@ import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
@@ -23,20 +25,28 @@ public class MainActivity extends AppCompatActivity {
 
     public static String TAG = "GeekQuoteTAG";
 
-    private LinearLayout ll_main_quotes;
     private Button bt_main_add;
     private EditText et_main_quote;
+    private ListView lv_main_list;
 
     private List<Quote> quotes = new ArrayList<Quote>();
+    private ArrayAdapter<Quote> quoteArrayAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ll_main_quotes = findViewById(R.id.ll_main_quotes);
         bt_main_add = findViewById(R.id.bt_main_add);
         et_main_quote = findViewById(R.id.et_main_quote);
+
+        quoteArrayAdapter = new ArrayAdapter<Quote>(this,
+                R.layout.list_item,
+                quotes
+        );
+
+        lv_main_list = (ListView) findViewById(R.id.listView);
+        lv_main_list.setAdapter(quoteArrayAdapter);
 
         bt_main_add.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,22 +61,12 @@ public class MainActivity extends AppCompatActivity {
         for(int i = 0; i< 10; i++) {
             quotes.add(new Quote("Quoter number " + (i+1)));
         }
-
-        for(Quote q : quotes) {
-
-
-
-            TextView tv_quote = new TextView(this);
-            tv_quote.setText(q.getStrQuote());
-            ll_main_quotes.addView(tv_quote);
-        }
     }
 
     protected void addQuote(String strQuote) {
         Quote quote = new Quote(strQuote);
         quotes.add(quote);
-        TextView tvQuote = new TextView(this);
-        tvQuote.setText(quote.getStrQuote());
-        ll_main_quotes.addView(tvQuote);
+
+        quoteArrayAdapter.notifyDataSetChanged();
     }
 }
