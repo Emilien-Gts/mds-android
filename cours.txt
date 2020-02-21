@@ -1,0 +1,5 @@
+- Activity : pages - suite de composants - composés de code JAVA (logique) et XML (VUE)
+- Life app : https://lh3.googleusercontent.com/proxy/Jym9TQW8le2lsiAl6qj4ju-oQy2TK0eN58WwF9swwQEOSFLDY6OU5u7ewcvuut62OugQ6UbcM34YxjLMHsqBJt0emZ7zOmKdkEIk0iOGDSTg8Sg
+- R : rssources projet courant
+- android.R : ressources android
+- Activity : classe JAVA, layout et manifest
