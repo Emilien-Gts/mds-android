@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Scrolling Text</string>
+    <string name="article_title">Lorem ipsum dolor sit amet</string>
+    <string name="article_subtitle">Suspendisse non lacinia metus</string>
+    <string name="article_text">Lorem ipsum dolor sit amet : https://fr.lipsum.com/feed/html, consectetur adipiscing elit. Curabitur nulla diam, facilisis volutpat hendrerit sed, rhoncus mollis nibh. Fusce eget luctus libero. Sed molestie felis nec lectus blandit, a egestas justo consequat. Nulla facilisi. In justo dolor, commodo non tempor sit amet, fermentum eget sem. Donec hendrerit tristique elit vitae suscipit. Vestibulum nec nunc in dui placerat commodo sed eget sapien.
+\n\n
+Suspendisse vitae justo id neque convallis imperdiet. Suspendisse non lacinia metus. Phasellus pretium sit amet metus vel iaculis. Aliquam erat volutpat. Proin euismod arcu et sem viverra, eu dapibus augue laoreet. Etiam placerat dignissim tortor, at cursus ex euismod nec. Vivamus vulputate quis dolor sit amet elementum. Sed nec est vitae nulla interdum scelerisque. Sed mollis arcu vitae fringilla ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti.
+\n\n
+Quisque id lectus volutpat, sollicitudin odio et, tempus tortor. Etiam feugiat sem vel nulla pulvinar dignissim. Donec pulvinar lectus eu dignissim faucibus. Ut faucibus bibendum laoreet. Mauris tincidunt felis eget nisi facilisis, eget dictum mi porttitor. Sed sit amet ligula urna. Fusce commodo risus nunc, id rhoncus sem maximus at. Donec quis consequat lacus. Integer libero diam, auctor at imperdiet vitae, ornare vel odio. Praesent condimentum magna ut tristique malesuada. Vestibulum non elit facilisis est viverra rutrum. Vivamus faucibus id velit eget lobortis.
+\n\n
+Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse condimentum consectetur ante, vitae mattis enim convallis ac. Proin posuere tempus fermentum. Donec laoreet turpis vel quam tempor, sed fermentum elit interdum. Nunc convallis enim mauris, vel laoreet nibh pellentesque a. Donec pharetra malesuada metus. Praesent id ex quis turpis luctus vehicula in at risus. In non quam a neque finibus ullamcorper et quis felis. Fusce faucibus urna quis semper sollicitudin. Aliquam interdum semper semper.
+\n\n
+Donec vitae euismod diam, sed consequat ante. Curabitur dictum faucibus viverra. Duis vitae ultrices massa. Maecenas ut diam dignissim, facilisis lacus at, pulvinar erat. Vivamus at nulla ex. Sed nisi risus, sodales ac tempor a, finibus sed turpis. Aliquam egestas purus et mauris accumsan, non ornare dui faucibus. Curabitur et metus lectus. Mauris ante orci, dignissim ut velit eu, finibus lobortis tortor. Morbi vitae gravida sem. Sed pellentesque augue id eros malesuada, sit amet gravida leo vulputate. Pellentesque aliquam erat in ante convallis, non auctor ipsum tincidunt. Nam placerat fermentum quam a rutrum. Donec nec lacinia odio.
+</string>
+</resources>
