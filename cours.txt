@@ -3,3 +3,11 @@
 - R : rssources projet courant
 - android.R : ressources android
 - Activity : classe JAVA, layout et manifest
+
+Variation de layout : créez un layout spécifique à une condition de runtime (exécution)
+AVD : Android virtual device
+Unité :  https://www.journaldunet.fr/web-tech/developpement/1202937-quelle-est-la-difference-entre-px-dp-dip-et-sp-sur-android/
+DP : Hauteur, largeur, etc... (fixe) pas de variation en fonction de la densité
+SP : Pareil que DP mais en + prend en compte la configuration du téléphone
+Android sample : exemple de code
+Constraint layout : disposer grâce à des contraintes (plusieurs contraintes différentes)
