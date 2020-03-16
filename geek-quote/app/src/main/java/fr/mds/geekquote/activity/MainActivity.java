@@ -2,18 +2,15 @@ package fr.mds.geekquote.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.res.Resources;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,6 +44,20 @@ public class MainActivity extends AppCompatActivity {
 
         lv_main_list = (ListView) findViewById(R.id.listView);
         lv_main_list.setAdapter(quoteArrayAdapter);
+
+        lv_main_list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+                Log.d(TAG, "onItemClicked " + position);
+
+                Quote selectedQuote = quotes.get(position);
+
+                Intent intent = new Intent(MainActivity.this, fr.mds.geekquote.activity.DetailQuoteActivity.class);
+                intent.putExtra("quote", selectedQuote);
+
+                MainActivity.this.startActivityForResult(intent, 5);
+            }
+        });
 
         bt_main_add.setOnClickListener(new View.OnClickListener() {
             @Override

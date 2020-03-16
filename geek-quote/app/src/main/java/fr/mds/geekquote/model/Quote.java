@@ -2,9 +2,10 @@ package fr.mds.geekquote.model;
 
 import androidx.annotation.NonNull;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Quote {
+public class Quote implements Serializable {
     private String strQuote;
     private int rating;
     private Date creationDate;
