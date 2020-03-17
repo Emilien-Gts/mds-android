@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
     private static final String LOG_TAG = MainActivity.class.getSimpleName() ;
-    public static final String EXTRA_MESSAGE = "me.mahakagg.twoactivities.extra.MESSAGE";
+    public static final String EXTRA_MESSAGE = "MESSAGE";
     private EditText mMessageEditText;
     public static final int TEXT_REQUEST = 1;
     private TextView mReplyHeadTextView;

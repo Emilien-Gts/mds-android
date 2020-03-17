@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class SecondActivity extends AppCompatActivity {
 
-    public static final String EXTRA_REPLY = "me.mahakagg.twoactivities.extra.REPLY";
+    public static final String EXTRA_REPLY = "REPLY";
     private EditText mReply;
 
     @Override
