@@ -1,0 +1,2 @@
+rootProject.name='ActivitylLifecycleAndStateHW'
+include ':app'
