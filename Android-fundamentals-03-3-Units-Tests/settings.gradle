@@ -1,0 +1,2 @@
+rootProject.name='Android Fundamentals 03.2 Units tests'
+include ':app'

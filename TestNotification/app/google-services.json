@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "158105765123",
+    "firebase_url": "https://hellonotificationsemilieng.firebaseio.com",
+    "project_id": "hellonotificationsemilieng",
+    "storage_bucket": "hellonotificationsemilieng.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158105765123:android:21f9fbacf26fdb859c5536",
+        "android_client_info": {
+          "package_name": "com.example.testnotificationprojet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158105765123-o6m893gl81s40rhc37mehrt7il44qc5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL64-fyy6ARt1l568iefzJxdDwJ227pTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158105765123-o6m893gl81s40rhc37mehrt7il44qc5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
