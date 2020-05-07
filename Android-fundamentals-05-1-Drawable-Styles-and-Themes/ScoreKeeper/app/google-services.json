@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "160998486983",
+    "firebase_url": "https://androidfunamentals5emilien.firebaseio.com",
+    "project_id": "androidfunamentals5emilien",
+    "storage_bucket": "androidfunamentals5emilien.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160998486983:android:033f1f90912f446c22dfe2",
+        "android_client_info": {
+          "package_name": "com.example.drawablesstylestheme51"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160998486983-ib5iv3fesctddi46kqcq7g3iem0sbcre.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdcjyNWLX0YvSaPQTG3W7gmyI0o5JRweI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160998486983-ib5iv3fesctddi46kqcq7g3iem0sbcre.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
