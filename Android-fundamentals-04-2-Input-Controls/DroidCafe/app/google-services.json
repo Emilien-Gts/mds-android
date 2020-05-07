@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "658450044141",
+    "firebase_url": "https://androidfunamentals4emilien.firebaseio.com",
+    "project_id": "androidfunamentals4emilien",
+    "storage_bucket": "androidfunamentals4emilien.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658450044141:android:85c34f2d2f40f76e18e8e4",
+        "android_client_info": {
+          "package_name": "com.example.droidcafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658450044141-u03mn6ia0oqjb28rtstavl392kblrduf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP4-LLm1BPevSrRPiZdclZiMCzPTgvPV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658450044141-u03mn6ia0oqjb28rtstavl392kblrduf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
